@@ -10,9 +10,9 @@ function App() {
         <aside className="sidebar">
           <div>
             <div className="brand">
-              <div className="brand-logo">MM</div>
+              <div className="brand-logo">MG</div>
               <div className="brand-text">
-                <span className="brand-title">Margin Monitor</span>
+                <span className="brand-title">MarginCall</span>
               </div>
             </div>
 
@@ -31,7 +31,7 @@ function App() {
             <div className="user-avatar">IA</div>
             <div className="user-meta">
               <div className="user-name">Idil Abdikadir</div>
-              <div className="user-email">idilabdikadir@marginmonitor.com</div>
+              <div className="user-email">idilmabdikadir@gmail.com</div>
             </div>
           </div>
         </aside>
