@@ -30,8 +30,7 @@ function App() {
           <div className="sidebar-user">
             <div className="user-avatar">IA</div>
             <div className="user-meta">
-              <div className="user-name">Idil Abdikadir</div>
-              <div className="user-email">idilmabdikadir@gmail.com</div>
+              <div className="user-name">Idil Abdikadir</div> 
             </div>
           </div>
         </aside>
