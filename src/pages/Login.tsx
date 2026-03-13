@@ -9,28 +9,41 @@ function Login() {
 
         <div className="login-header">
           <div className="logo">MM</div>
-          <h1>Margin Monitor</h1>
+          <h1>MarginCall</h1>
         </div>
 
-        <h2>Sign in</h2>
-        <p className="subtitle">Access your risk monitoring dashboard</p>
+        <h2>Sign In</h2>
+        <p className="subtitle">Welcome</p>
 
         <div className="form-group">
-          <label>Email</label>
-          <input type="email" placeholder="Enter your email" />
+          <label>E-mail</label>
+          <input type="email" placeholder="Enter Your E-mail" />
         </div>
 
         <div className="form-group">
           <label>Password</label>
-          <input type="password" placeholder="Enter your password" />
+          <input type="password" placeholder="Enter Your Password" />
         </div>
 
-        <button className="login-button" 
-         onClick={() => navigate("/dashboard")}>
-          Sign in
-        </button>
+        <div className="auth-buttons">
 
-        <div className="divider">
+  <button
+    className="login-button"
+    onClick={() => navigate("/dashboard")}
+  >
+    Sign in
+  </button>
+
+  <button
+    className="register-button"
+    onClick={() => navigate("/register")}
+  >
+    Register
+  </button>
+
+</div>
+
+    <div className="divider">
           <span>or continue with</span>
         </div>
 
